@@ -1,0 +1,32 @@
+
+h1 {
+  color: white;
+}
+
+footer {
+  background: white;
+  color: black;
+}
+
+header{
+  background: #F25F2E;
+  color: white;
+}
+.shoe-type{
+  background: #F25F2E;
+  color: white;
+}
+
+.wrap-align-left{
+  float: left;
+}
+
+.wrap-align-right{
+  float:right;
+}
+
+.align-left {
+  float: left;
+  vertical-align: left
+  bottom: 0;
+}
