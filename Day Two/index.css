@@ -1,0 +1,33 @@
+h1 {
+  text-transform: uppercase;
+  color: #cfffe4;
+  background: #343e3d;
+  width: 600px;
+  height: 50px;
+  border: 1.5px #28261c;
+  padding: 2px;
+}
+
+body {
+  color: #28261c
+}
+
+p {
+  border: 1.5px;
+}
+.container {
+border: 10px;
+padding: 2px;
+width: 600px;
+height: 150px;
+background: white;
+}
+
+img {
+  margin:auto;
+  padding: 10px;
+}
+
+h2 {
+  padding: 2px;
+}

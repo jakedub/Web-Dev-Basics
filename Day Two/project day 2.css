@@ -1,0 +1,98 @@
+
+h1 {
+  color: white;
+}
+
+footer {
+  background: white;
+  color: black;
+}
+
+header{
+  background: #F25F2E;
+  color: white;
+  padding-left: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  line-height: 75%;
+}
+.shoe-type{
+  background: #F25F2E;
+  color: white;
+  padding-left: 400px;
+}
+
+.wrap-align-left{
+  float: left;
+}
+
+.wrap-align-right{
+  float:right;
+}
+
+.align-left {
+  float: left;
+  vertical-align: left
+  bottom: 0;
+}
+
+.header-content{
+  background: white;
+  color:#F25F2E;
+  text-transform:uppercase;
+}
+
+.container{
+  background: white;
+  color:#F25F2E;
+  text-transform: uppercase;
+  height: 60px;
+  width: 100px;
+  display: inline;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.middle-section{
+  padding-left: 400px;
+  padding-bottom: 75px;
+  padding-top: 20px;
+  line-height: 20%;
+}
+
+.recommend{
+  background: #F9B6A0;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+h5{
+  color: red;
+  padding-top: .5px;
+}
+
+.details{
+  text-decoration: underline;
+  text-decoration-color: #F25F2E;
+  color:#F25F2E;
+}
+
+.border{
+  border-style: dashed;
+  border-color: red;
+  border-width: medium;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-right: 100px;
+  display: inline-block;
+}
+
+.exciting{
+  padding-bottom: 10px;
+}
+
+.find-shoe{
+  padding-bottom: 15px;
+}
