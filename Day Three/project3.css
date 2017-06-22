@@ -5,10 +5,25 @@ h1 {
 footer {
   background: white;
   color: black;
+
+  display: inline;
+  float: left;
+}
+
+footer ul{
+  float:right;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.footer .legal {
+  font-size: 12px;
+  margin-top: 6px;
+  display: inline-block;
 }
 
 header{
-  background: #F25F2E;
+  background: linear-gradient(to left,#DD2476, #F25F2E);
   color: white;
   padding-left: 200px;
   padding-top: 20px;
@@ -114,6 +129,7 @@ h5{
 
 .people{
   display: inline-block;
+  display: right;
   padding-right: 600px;
 }
 
@@ -132,7 +148,7 @@ h5{
 }
 
 .footer-content{
-  float: right;
+  float: left;
 }
 
 .grouped-shoe{
@@ -149,4 +165,12 @@ h5{
   display: inline-block;
   margin: 0;
   padding: 0;
+}
+
+.people3{
+  display: inline-block;
+}
+
+footer img{
+  float:left;
 }
