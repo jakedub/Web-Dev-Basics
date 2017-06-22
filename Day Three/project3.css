@@ -1,4 +1,3 @@
-
 h1 {
   color: white;
 }
@@ -11,16 +10,18 @@ footer {
 header{
   background: #F25F2E;
   color: white;
-  padding-left: 400px;
+  padding-left: 200px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 100px;
   text-decoration: none;
   line-height: 75%;
+  margin-top: auto;
 }
 .shoe-type{
   background: #F25F2E;
   color: white;
-  padding-left: 400px;
+  padding-left: 200px;
+  padding-top: 60px;
 }
 
 .wrap-align-left{
@@ -41,6 +42,8 @@ header{
   background: white;
   color:#F25F2E;
   text-transform:uppercase;
+  float:right;
+  text-align: left;
 }
 
 .container{
@@ -55,9 +58,9 @@ header{
 }
 
 .middle-section{
-  padding-left: 400px;
+  padding-left: 200px;
   padding-bottom: 75px;
-  padding-top: 20px;
+  padding-top: 50px;
   line-height: 20%;
 }
 
@@ -79,15 +82,19 @@ h5{
   color:#F25F2E;
 }
 
+.reviews-details{
+  text-decoration: underline;
+  text-decoration-color: #F25F2E;
+  color:#F25F2E;
+  float: right;
+  padding-right: 250px;
+}
 .border{
-  border-top: 10px;
-  border-bottom: 10px;
-  border-style: dashed;
-  border-color: red;
-  border-width: medium;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  padding-right: 100px;
+  border-top: 5px dashed red;
+  border-bottom: 5px dashed red;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 10px;
   display: inline-block;
 }
 
@@ -98,4 +105,48 @@ h5{
 
 .find-shoe{
   padding-bottom: 15px;
+}
+
+.shiftright{
+  float: right;
+  padding-right: 200px;
+}
+
+.people{
+  display: inline-block;
+  padding-right: 600px;
+}
+
+.items{
+  width: 50%;
+}
+
+.people2{
+  display: inline-block;
+  padding-right: 600px;
+  color: #F25F2E
+}
+
+.items2{
+  padding-right: 10px;
+}
+
+.footer-content{
+  float: right;
+}
+
+.grouped-shoe{
+  display: inline-block;
+  padding: 20px;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }

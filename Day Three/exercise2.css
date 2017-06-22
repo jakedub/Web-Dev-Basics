@@ -1,0 +1,8 @@
+button {
+  float: left;
+  margin: 5px;
+}
+.product{
+  display:inline-block;
+  padding-left: 10px;
+}
