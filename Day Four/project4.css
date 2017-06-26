@@ -5,25 +5,11 @@ h1 {
 footer {
   background: white;
   color: black;
-
-  display: inline;
-  float: left;
-}
-
-footer ul{
-  float:right;
-  list-style-type: none;
-  display: inline-block;
-}
-
-.footer .legal {
-  font-size: 12px;
-  margin-top: 6px;
-  display: inline-block;
+  padding: 20px;
 }
 
 header{
-  background: linear-gradient(to left,#DD2476, #F25F2E);
+  background: #F25F2E;
   color: white;
   padding-left: 200px;
   padding-top: 20px;
@@ -33,7 +19,7 @@ header{
   margin-top: auto;
 }
 .shoe-type{
-  background: linear-gradient(to left,#DD2476, #F25F2E);
+  background: #F25F2E;
   color: white;
   padding-left: 200px;
   padding-top: 60px;
@@ -96,14 +82,28 @@ h5{
   text-decoration-color: #F25F2E;
   color:#F25F2E;
 }
-
-.reviews-details{
-  text-decoration: underline;
-  text-decoration-color: #F25F2E;
-  color:#F25F2E;
-  float: right;
-  padding-right: 250px;
+.details ul{
+  margin: 0;
+  padding: 0;
 }
+
+.details a{
+  border-bottom: 3px solid;
+  color: #FF512F;
+  display: block;
+  font-weight: bold;
+  margin: 0 12px 0 0;
+  padding: 4px 2px;
+  text-decoration: none;
+  font-family: "Jaldi", Helvetica, Arial, sans-serif;
+}
+
+.details li{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
 .border{
   border-top: 5px dashed red;
   border-bottom: 5px dashed red;
@@ -129,7 +129,6 @@ h5{
 
 .people{
   display: inline-block;
-  display: right;
   padding-right: 600px;
 }
 
@@ -147,49 +146,47 @@ h5{
   padding-right: 10px;
 }
 
+.footer-content{
+  float: right;
+}
+
 .grouped-shoe{
   display: inline-block;
   padding: 20px;
 }
 
-.people3 ul {
+.something ul {
   margin: 0;
   padding: 0;
 }
 
-.people3 li {
+.something li {
   display: inline-block;
-  margin: 0;
-  padding: 0;
 }
 
-.footer .items3{
+.shipping{
   float:right;
-  margin: 6px;
+  padding-bottom: 10px;
 }
 
-.footer {
-  padding: 20px;
-}
-
-/*Header Information*/
-.header .primary {
-  float: left;
-}
-
- .primary a {
-  text-transform: uppercase;
-}
-
-.header .secondary {
+.middle-section .details .reviews {
   float: right;
 }
 
-.header .secondary a {
+.middle-section .details .reviews a {
   color: #ff9495;
+  font-size: 16px;
+  padding-bottom: 9px;
 }
 
-.header .secondary a .cart {
-  margin-right: 2px;
-  vertical-align: -1px;
-  width: 20px;
+.logo {
+  width: 50px;
+  float: left;
+  margin-right: 10px;
+}
+
+.primary {
+  float: left;
+  text-transform: uppercase;
+  padding: 20px;
+}
