@@ -74,7 +74,7 @@ sup {
 
 .navigation a {
   border-bottom: 3px solid transparent; /* Necessary for :hover & .active */
-  color: #F25F2E;
+  color: #BAD1CD;
   cursor: pointer;
   display: block;
   font-weight: bold;
@@ -86,11 +86,11 @@ sup {
 
 .navigation a.active,
 .navigation a:hover {
-  border-bottom-color: #fbc2c3;
+  border-bottom-color: #BAD1CD;
 }
 
 .navigation a.active {
-  color: #b1290e;
+  color: #BAD1CD;
 }
 
 /* LAYOUT STYLES --------*/
@@ -112,7 +112,7 @@ sup {
 }
 
 .header .secondary-navigation.navigation a {
-  color: #ff9495;
+  color: #BAD1CD;
 }
 
 .header .secondary-navigation.navigation a .cart {
@@ -123,7 +123,7 @@ sup {
 
 /* PRODUCT SPOTLIGHT --*/
 .product-spotlight {
-  background: linear-gradient(to left, #F25F2E, #5531AA);
+  background: linear-gradient(to left, #5531AA, #BAD1CD);
   box-shadow: 0 10px 0 0 rgba(0, 0, 0, 0.05) inset;
   padding-bottom: 400px;
   margin-top: 20px;
@@ -185,7 +185,7 @@ sup {
   padding: 13px 20px;
   text-decoration: none;
   text-transform: uppercase;
-  color: #F25F2E;
+  color: #5531AA;
   font-weight: bold;
   transition: all 0.2s ease;
 }
@@ -207,7 +207,7 @@ sup {
 }
 
 .product-detail .navigation .reviews a {
-  color: #ff9495;
+  color: #BAD1CD;
   font-size: 16px;
   padding-bottom: 9px;
 }
@@ -218,7 +218,7 @@ sup {
 
 /* MORE PRODUCTS --*/
 .more-products {
-  background: linear-gradient(to left, #F25F2E, #5531AA);
+  background: linear-gradient(to left, #5531AA, #BAD1CD);
   padding-bottom: 250px;
 }
 
